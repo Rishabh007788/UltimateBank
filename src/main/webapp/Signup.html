@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+    <div>
+       <center><h1 >SignUp</h1></center> 
+        <fieldset>
+        <form action="signuppp">
+			
+            <label for="name">Full Name : </label>
+            <input type="text" name="Name" id="name" placeholder="Enter your full name here..."> <br> <br>
+            
+            <label for="email">Email :</label>
+            <input type="text" name="Email" id="email" placeholder="Enter your email id here"> <br> <br>
+            
+            <label for="phone">Mob No. :</label>
+            <input type="tel" name="Mob" id="phone" pattern="{10}" title="Invalid Mob No"> <br> <br>
+            
+              <label for="dob">DOB</label>
+            <input type="date" name="Dob" id="dob"><br> <br>
+            
+            <label>Gender :  </label>
+            <label for="male">Male  </label> 
+            <input type="radio" name="Gender" id="male" value="Male">
+            <label for="female">Female  </label>
+            <input type="radio" name="Gender" id="female" value="Female"> <br> <br>
+            
+             <label for="pwd">Password:</label>
+  			<input type="password" id="pwd" name="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"> <br> <br>
+  			
+            <input type="submit">
+            <input type="reset">
+            
+        </form>
+        
+        
+    </div> <br>
+    <p>Already have an account</p>
+    <a href="Login.html"><button>Login</button></a>
+
+</body>
+</html>

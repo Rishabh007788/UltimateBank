@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+ }
+
+#main{
+    height: 610px;
+    width: auto;
+    background-image: linear-gradient(to LEFT bottom, #000000fa 30%,  #000000);
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+}
+
+#heading{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 25px;
+    color: #f9661d;
+    text-shadow:-4px 4px 5px #6f4b29;
+}
+#heading img{
+    height: 60px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.main2{
+    height: fit-content;
+    width: 50%;
+    border: 0px solid black;
+    background-color: #ababab;
+    box-shadow: -5px 5px 10px rgb(62, 62, 62);
+    position: absolute;
+    left: 25%;
+    top: 13vh;
+    border-radius: 6px;
+}
+#loghead{
+    height: auto;
+    width: auto;
+    border: 0px dotted red;
+    display: flex;
+    padding-top: 1px;
+    padding-left: 5px;
+    font-size: 23px;
+    color: #f9661d;
+}
+
+
+.logintop{
+    height: 180px;
+    width: 100%;
+    border: 0px dotted rgb(22, 16, 18);
+    border-left: none;
+    border-right: none;
+}
+.logintop>#e1{
+    height: 15px;
+    width: 100%;
+    border: px solid rgb(18, 11, 11);
+    color: #000000;
+    font-size: large;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    top: 40px;
+}
+#Email{
+    height: 35px;
+    width: 94%;
+    position: absolute;
+    top: 68px;
+    left: 3%;
+    background-color: rgb(216, 212, 212);
+    
+    border: 1px solid rgb(149, 148, 148);
+    padding-left: 5px;
+}
+
+.logintop>#pass{
+    height: 15px;
+    width: 250px;
+    border: px solid rgb(19, 17, 17);
+    color: #040404;
+    font-size: large;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+
+.logintop>#password{
+    height: 35px;
+    width: 94%;
+    position: absolute;
+    top: 145px;
+    left: 3%;
+    background-color: rgb(216, 212, 212);
+   
+    border: 1px solid rgb(149, 148, 148);
+    padding-left: 5px;
+}
+.errormsg{
+    height: auto;
+    width: 94%;
+    position: absolute;
+    top: 177px;
+    left: 3%;
+    color: red;
+    font-size: 13px;
+}
+
+.loginbottum{
+    height: 223px;
+    width: auto;
+    border: 0px dotted rgb(16, 16, 16);
+    margin-top: 30px;
+    
+}
+
+#loginbt{
+    height: 38px;
+    width: 80%;
+    background-color: rgb(15, 108, 237);
+    position: absolute;
+    left: 10%;
+    top: 220px;
+    color: white;
+    font-size: medium;
+    border: px solid rgb(0, 0, 0);
+    
+}
+
+#hrr1{
+    width: 40%;
+    position: absolute;
+    top: 278px;
+    left: 3%;
+}
+#hrr2{
+    width: 40%;
+    position: absolute;
+    top: 278px;
+    right: 3%;
+}
+#or{
+    position: absolute;
+    top: 266px;
+    left: 47%;
+    color: rgb(97, 96, 96);
+}
+
+#registbt{
+    height: 32px;
+    width: 80%;
+    background-color: rgb(4, 98, 51);
+    position: absolute;
+    top: 303px;
+    left: 10%;
+    color: white;
+    font-size: medium;
+    border: 1px solid rgb(149, 148, 148);
+    
+}
+.clickhere{
+    position: absolute;
+    top: 337px;
+    left: 10%;
+    color: rgb(85, 86, 87);
+    font-size:12px;
+}
+#forgot{
+    height: 32px;
+    width: 80%;
+    background-color: rgb(232, 229, 228);
+    position: absolute;
+    top: 370px;
+    left: 10%;
+    border: 1px solid rgb(149, 148, 148);
+    
+}
+#help{
+    height: 28px;
+    width: 80px;
+    background-color: rgb(0, 1, 0);
+    color: white;
+    position: absolute;
+    top: 420px;
+    right: 5%;
+}
+
+@media screen and (max-width:600px) {
+    #heading{
+      height: fit-content;
+      font-size: large;
+    }
+    .main2{
+        height: fit-content;
+        width: 90%;
+    
+        left: 5%;
+    }
+    #heading img{
+        height: 40px;
+        width: 80px;
+        margin-right: 10px;
+    }
+
+}

@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(360deg,#ffffff, 50%, #c7c8c9);
+}
+
+#heading{
+    height: 80px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #f9661d;
+    text-shadow:-4px 4px 5px #393939;
+    border: 2px solid rgb(92, 91, 91);
+    border-radius: 10rem;
+    background-color: rgb(255, 255, 255);
+}
+#heading img{
+    height: 60px;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow:-4px 4px 5px #6f4b29;
+}
+
+form {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(1, 1, 1);
+    background: transparent;
+}
+
+.column {
+    padding: 10px 15px;
+}
+.col1{
+    border-right: 1px solid black;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(1, 108, 185);;
+}
+
+input, select {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+   
+}
+.rdo{
+    width: auto;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    margin: 10px 20px;
+}
+.txt{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+button {
+    height: 40px;
+    border-radius: 10rem;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn2{
+    background-color: rgb(202, 79, 58);
+}
+button:hover {
+    background-color: #45a049;
+}
+.btn2:hover {
+    background-color: rgb(204, 68, 44);
+}
+
+
+@media screen and (max-width: 900px){
+  
+}
+
+@media screen and (max-width: 600px){
+    #heading{
+        width: 100%;
+        margin-left: 0px;
+        border: none;
+        border-radius: 0px;
+        font-size: 18px;
+        text-shadow:-2px 2px 3px #393939;
+    }
+    #heading img{
+        height: 50px;
+        width: 80px;
+    }
+    form {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 100%;
+        margin-left: 5%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        border: 0px solid rgb(1, 1, 1);
+        background-color: #e3e2e2;
+    }
+    .col1{
+        border-right: none;
+    }
+  
+}

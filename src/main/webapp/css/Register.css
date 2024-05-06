@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+#heading{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 25px;
+    color: #f9661d;
+    text-shadow:-4px 4px 5px #6f4b29;
+}
+#heading img{
+    height: 60px;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+   	margin-top: 2.5px;
+}
+form{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 15vh;
+    display: block;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+form .txtinp{
+    height: 40px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5px;
+    background-color: papayawhip;
+    color: rgb(20, 20, 20);
+}
+.selectinp{
+	margin-left: 5%;
+    margin-top: 5px;
+    background-color: azure;
+    color: rgb(20, 20, 20);
+}
+form label{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+    color: azure;
+}
+.errormsg{
+	display: block;
+	margin-left: 10%;
+	color: red;
+}
+.submit{
+    height: 40px;
+    width: 150px;
+    margin-left: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: azure;
+    background-color: rgb(0, 72, 255);
+    display: inline-block;
+
+}
+.reset{
+    height: 40px;
+    width: 150px;
+    margin-left: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: azure;
+    background-color: rgb(26, 36, 103);
+    display: inline-block;
+}
+
+@media screen and (max-width: 900px){
+    form{
+        width: 80%;
+        
+        display: block;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin-left: 0%;
+    }
+    .submit{
+        display: block;
+        margin-left: 28%;
+    }
+    .reset{
+        display: block;
+        margin-left: 28%;
+    }
+    #heading{
+        height: fit-content;
+        font-size: large;
+      }
+      .wrapper{
+        height: auto;
+      }
+}
+
+@media screen and (max-width: 600px){
+    form{
+        width: 100%;
+        
+        display: block;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin-left: 0%;
+    }
+    .submit{
+        display: block;
+        margin-left: 28%;
+    }
+    .reset{
+        display: block;
+        margin-left: 28%;
+    }
+    #heading{
+        height: fit-content;
+        font-size: large;
+      }
+      .wrapper{
+        height: 100%;
+      }
+       .wrapper div{
+        display: none;
+       }
+
+       form .txtinp{
+        height: 40px;
+        width: 70%;
+        margin-left: 10%;
+        margin-top: 5px;
+        background-color: azure;
+        color: rgb(20, 20, 20);
+    }
+    .selectinp{
+        margin-left: 10px;
+        margin-top: 5px;
+        background-color: azure;
+        color: rgb(20, 20, 20);
+    }
+    form label{
+        width: 70%;
+        margin-left: 10%;
+        margin-top: 20px;
+        color: azure;
+    }
+    #heading h1{
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 250px){
+    form{
+        width: 100%;  
+        display: block;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin-left: 0%;
+        margin-top: 180px;
+    }
+    .submit{
+        display: block;
+        margin-left: 5%;
+    }
+    .reset{
+        display: block;
+        margin-left: 5%;
+    }
+    #heading{
+        height: fit-content;
+        flex-wrap: wrap;
+        font-size: large;
+      }
+      .wrapper{
+        height: 100%;
+      }
+       .wrapper div{
+        display: none;
+       }
+
+       form .txtinp{
+        height: 40px;
+        width: 70%;
+        margin-left: 10%;
+        margin-top: 5px;
+        background-color: azure;
+        color: rgb(20, 20, 20);
+    }
+    .selectinp{
+        margin-left: 10px;
+        margin-top: 5px;
+        background-color: azure;
+        color: rgb(20, 20, 20);
+    }
+    form label{
+        width: 70%;
+        margin-left: 10%;
+        margin-top: 20px;
+        color: azure;
+    }
+    #heading h1{
+        margin-top: 8px;
+    }
+}

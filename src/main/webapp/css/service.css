@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.service{
+	margin-top: 5px; 
+    height: fit-content;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgba(191, 190, 190, 0.462);
+    margin-left: 5%;
+}
+.ser_name{
+    background-color: rgb(82, 82, 82);
+    color: white;
+    width: 99.95%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: fit-content;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;  
+}
+.form_cnt{
+    height: fit-content;
+    width: 80%;
+    border: 1px solid grey;
+    padding: 10px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.form_cnt form label{
+
+    font-size: 1.1rem;
+    color: grey;
+}
+.form_cnt form .text_inp{
+    height: 40px;
+    width: 250px;
+    background: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 1rem;
+}
+.form_cnt form .select_inp{
+    height: 40px;
+    background: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: rgb(117, 116, 116);
+    padding-left: 5px;
+}
+.sub-btn{
+    padding: 10px 15px;
+    background: rgba(46, 144, 249, 0.878);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 1.1rem;   
+}
+@media screen and (max-width:500px) {
+    .form_cnt{
+        width: 100%;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:250px) {
+	.service{
+        width: 100%;
+          margin-left: 0%;
+    }
+    .form_cnt{
+        width: 100%;
+        
+        background-color: aqua;
+    }
+    .form_cnt form .select_inp{
+        
+        padding: auto;
+        width: 150px;
+        color: rebeccapurple;
+    }
+    .form_cnt form .text_inp{
+        width: 120px;
+        display: block;
+         margin-left: 8px
+    }
+    .form_cnt form label{
+        display: block;
+        margin-left: 8px    }
+}
